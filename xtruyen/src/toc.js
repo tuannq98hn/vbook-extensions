@@ -14,22 +14,14 @@ function execute(url) {
     let chapters = [];
     let step = 200;
     for (let from = 1; from < 100000; from += step) {
-        let res = fetch(BASE_URL + "/api/api-chapters.php", {
-            method: "POST",
-            headers: {
-                "X-Custom-Auth": "abC0000011111",
-                "X-Requested-With": "XMLHttpRequest",
-                "Referer": url
-            },
-            body: { manga_id: mangaId, from: String(from), to: String(from + step - 1), vol: "" }
-        });
+        let res = fetchRange(url, mangaId, from, from + step - 1);
         if (!res.ok) return Response.error("HTTP " + res.status);
         let list = res.json();
         if (!list || list.length === 0) break;
         for (let i = 0; i < list.length; i++) {
             let c = list[i];
             chapters.push({
-                name: c.n + (c.e ? c.e.replace(/^[\s:]+/, ": ") : ""),
+                name: (c.n + (c.e ? c.e.replace(/^[\s:]+/, ": ") : "")).replace(/:(\S)/, ": $1"),
                 url: url + c.s + "/",
                 description: "",
                 lock: false,
@@ -40,4 +32,23 @@ function execute(url) {
     }
 
     return Response.success(chapters);
+}
+
+// The API rate-limits bursts (HTTP 429), which long novels hit; back off and retry.
+function fetchRange(url, mangaId, from, to) {
+    let res;
+    for (let attempt = 0; attempt < 5; attempt++) {
+        res = fetch(BASE_URL + "/api/api-chapters.php", {
+            method: "POST",
+            headers: {
+                "X-Custom-Auth": "abC0000011111",
+                "X-Requested-With": "XMLHttpRequest",
+                "Referer": url
+            },
+            body: { manga_id: mangaId, from: String(from), to: String(to), vol: "" }
+        });
+        if (res.status !== 429) return res;
+        sleep(2000 * (attempt + 1));
+    }
+    return res;
 }
