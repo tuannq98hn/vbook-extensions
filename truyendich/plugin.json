@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "name": "TruyệnDịch AI",
+    "author": "tuannq98hn",
+    "version": 1,
+    "source": "https://truyendich.space",
+    "description": "Đọc truyện chữ trên trang TruyenDichAI",
+    "locale": "vi_VN",
+    "regexp": "(https?://)?(www\\.)?truyendich\\.space/doc-truyen/[^/]+/?",
+    "language": "javascript",
+    "type": "novel",
+    "nsfw": false,
+    "encrypt": false
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "page": "page.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  },
+  "config": {
+    "DOMAIN": {
+      "title": "Domain",
+      "default": "https://truyendich.space",
+      "mode": "input",
+      "format": "text"
+    }
+  }
+}

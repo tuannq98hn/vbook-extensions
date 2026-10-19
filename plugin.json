@@ -339,6 +339,28 @@
       "type": "comic",
       "locale": "vi_VN",
       "tag": "nsfw"
+    },
+    {
+      "name": "Truyện QQ (Fork)",
+      "author": "tuannq98hn",
+      "path": "https://raw.githubusercontent.com/tuannq98hn/vbook-extensions/master/truyenqqko/plugin.zip",
+      "version": 1,
+      "source": "https://truyenqqko.com",
+      "icon": "https://raw.githubusercontent.com/tuannq98hn/vbook-extensions/master/truyenqqko/icon.png",
+      "description": "Đọc truyện tranh trên trang Truyện QQ (bản sửa cho app cũ)",
+      "type": "comic",
+      "locale": "vi_VN"
+    },
+    {
+      "name": "TruyệnDịch AI",
+      "author": "tuannq98hn",
+      "path": "https://raw.githubusercontent.com/tuannq98hn/vbook-extensions/master/truyendich/plugin.zip",
+      "version": 1,
+      "source": "https://truyendich.space",
+      "icon": "https://raw.githubusercontent.com/tuannq98hn/vbook-extensions/master/truyendich/icon.png",
+      "description": "Đọc truyện chữ trên trang TruyenDichAI",
+      "type": "novel",
+      "locale": "vi_VN"
     }
   ]
 }

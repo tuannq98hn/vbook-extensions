@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "name": "Truyện QQ (Fork)",
+    "author": "tuannq98hn",
+    "version": 1,
+    "source": "https://truyenqqko.com",
+    "regexp": "(https?://)?(www\\.)?truyenqq[a-z0-9]*\\.[a-z.]+/truyen-tranh/(?![0-9a-z-]*-chap-[0-9.-]+/?$)[0-9a-z-]+/?",
+    "description": "Đọc truyện tranh trên trang Truyện QQ (bản sửa cho app cũ)",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "comic",
+    "nsfw": false,
+    "encrypt": false
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  },
+  "config": {
+    "DOMAIN": {
+      "title": "Domain",
+      "default": "https://truyenqqko.com",
+      "mode": "input",
+      "format": "text"
+    }
+  }
+}
