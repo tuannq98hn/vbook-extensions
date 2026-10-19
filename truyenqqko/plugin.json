@@ -1,8 +1,8 @@
 {
   "metadata": {
     "name": "Truyện QQ (Fork)",
-    "author": "tuannq98hn",
-    "version": 1,
+    "author": "SV",
+    "version": 2,
     "source": "https://truyenqqko.com",
     "regexp": "(https?://)?(www\\.)?truyenqq[a-z0-9]*\\.[a-z.]+/truyen-tranh/(?![0-9a-z-]*-chap-[0-9.-]+/?$)[0-9a-z-]+/?",
     "description": "Đọc truyện tranh trên trang Truyện QQ (bản sửa cho app cũ)",
