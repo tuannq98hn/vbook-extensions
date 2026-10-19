@@ -280,6 +280,18 @@
       "description": "Read manga, manhwa and manhua on Weeb Central",
       "type": "comic",
       "locale": "en"
+    },
+    {
+      "name": "SayHentai",
+      "author": "tuannq98hn",
+      "path": "https://raw.githubusercontent.com/tuannq98hn/vbook-extensions/master/sayhentai/plugin.zip",
+      "version": 1,
+      "source": "https://sayhentai.cool",
+      "icon": "https://raw.githubusercontent.com/tuannq98hn/vbook-extensions/master/sayhentai/icon.png",
+      "description": "Đọc truyện tranh trên trang SayHentai",
+      "type": "comic",
+      "locale": "vi_VN",
+      "tag": "nsfw"
     }
   ]
 }

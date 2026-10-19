@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "name": "SayHentai",
+    "author": "tuannq98hn",
+    "version": 1,
+    "source": "https://sayhentai.cool",
+    "description": "Đọc truyện tranh trên trang SayHentai",
+    "locale": "vi_VN",
+    "regexp": "(https?://)?(www\\.)?sayhentai\\.[a-z]+/truyen/[^/]+\\.html",
+    "language": "javascript",
+    "type": "comic",
+    "nsfw": true,
+    "encrypt": false
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  },
+  "config": {
+    "DOMAIN": {
+      "title": "Domain",
+      "default": "https://sayhentai.cool",
+      "mode": "input",
+      "format": "text"
+    }
+  }
+}
