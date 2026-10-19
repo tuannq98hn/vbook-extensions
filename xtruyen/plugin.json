@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "name": "XTruyện",
+    "author": "tuannq98hn",
+    "version": 1,
+    "source": "https://xtruyen.vn",
+    "description": "Đọc truyện chữ trên trang XTruyện",
+    "locale": "vi_VN",
+    "regexp": "(https?://)?(www\\.)?xtruyen\\.vn/truyen/[^/]+/?",
+    "language": "javascript",
+    "type": "novel",
+    "nsfw": false,
+    "encrypt": false
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  },
+  "config": {
+    "DOMAIN": {
+      "title": "Domain",
+      "default": "https://xtruyen.vn",
+      "mode": "input",
+      "format": "text"
+    }
+  }
+}

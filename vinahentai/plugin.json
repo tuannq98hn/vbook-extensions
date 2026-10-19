@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "name": "VinaHentai",
+    "author": "tuannq98hn",
+    "version": 1,
+    "source": "https://vinahentai.mom",
+    "description": "Đọc truyện tranh trên trang VinaHentai",
+    "locale": "vi_VN",
+    "regexp": "(https?://)?(www\\.)?vinahentai\\.[a-z]+/truyen-hentai/[^/]+/?",
+    "language": "javascript",
+    "type": "comic",
+    "nsfw": true,
+    "encrypt": false
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  },
+  "config": {
+    "DOMAIN": {
+      "title": "Domain",
+      "default": "https://vinahentai.mom",
+      "mode": "input",
+      "format": "text"
+    }
+  }
+}

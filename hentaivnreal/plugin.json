@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "name": "HentaiVNReal",
+    "author": "tuannq98hn",
+    "version": 1,
+    "source": "https://hentaivnreal.com",
+    "description": "Đọc truyện tranh trên trang HentaiVNReal",
+    "locale": "vi_VN",
+    "regexp": "(https?://)?(www\\.)?hentaivnreal\\.com/truyen/[^/]+/?",
+    "language": "javascript",
+    "type": "comic",
+    "nsfw": true,
+    "encrypt": false
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  },
+  "config": {
+    "DOMAIN": {
+      "title": "Domain",
+      "default": "https://hentaivnreal.com",
+      "mode": "input",
+      "format": "text"
+    }
+  }
+}

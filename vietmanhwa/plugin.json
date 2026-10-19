@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "name": "VietManhwa",
+    "author": "tuannq98hn",
+    "version": 1,
+    "source": "https://vietmanhwa.com",
+    "description": "Đọc truyện tranh manhwa trên trang VietManhwa",
+    "locale": "vi_VN",
+    "regexp": "(https?://)?(www\\.)?vietmanhwa\\.com/manhwa-18/[^/]+/?",
+    "language": "javascript",
+    "type": "comic",
+    "nsfw": true,
+    "encrypt": false
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  },
+  "config": {
+    "DOMAIN": {
+      "title": "Domain",
+      "default": "https://vietmanhwa.com",
+      "mode": "input",
+      "format": "text"
+    }
+  }
+}

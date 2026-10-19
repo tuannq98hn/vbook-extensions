@@ -292,6 +292,53 @@
       "type": "comic",
       "locale": "vi_VN",
       "tag": "nsfw"
+    },
+    {
+      "name": "XTruyện",
+      "author": "tuannq98hn",
+      "path": "https://raw.githubusercontent.com/tuannq98hn/vbook-extensions/master/xtruyen/plugin.zip",
+      "version": 1,
+      "source": "https://xtruyen.vn",
+      "icon": "https://raw.githubusercontent.com/tuannq98hn/vbook-extensions/master/xtruyen/icon.png",
+      "description": "Đọc truyện chữ trên trang XTruyện",
+      "type": "novel",
+      "locale": "vi_VN"
+    },
+    {
+      "name": "HentaiVNReal",
+      "author": "tuannq98hn",
+      "path": "https://raw.githubusercontent.com/tuannq98hn/vbook-extensions/master/hentaivnreal/plugin.zip",
+      "version": 1,
+      "source": "https://hentaivnreal.com",
+      "icon": "https://raw.githubusercontent.com/tuannq98hn/vbook-extensions/master/hentaivnreal/icon.png",
+      "description": "Đọc truyện tranh trên trang HentaiVNReal",
+      "type": "comic",
+      "locale": "vi_VN",
+      "tag": "nsfw"
+    },
+    {
+      "name": "VinaHentai",
+      "author": "tuannq98hn",
+      "path": "https://raw.githubusercontent.com/tuannq98hn/vbook-extensions/master/vinahentai/plugin.zip",
+      "version": 1,
+      "source": "https://vinahentai.mom",
+      "icon": "https://raw.githubusercontent.com/tuannq98hn/vbook-extensions/master/vinahentai/icon.png",
+      "description": "Đọc truyện tranh trên trang VinaHentai",
+      "type": "comic",
+      "locale": "vi_VN",
+      "tag": "nsfw"
+    },
+    {
+      "name": "VietManhwa",
+      "author": "tuannq98hn",
+      "path": "https://raw.githubusercontent.com/tuannq98hn/vbook-extensions/master/vietmanhwa/plugin.zip",
+      "version": 1,
+      "source": "https://vietmanhwa.com",
+      "icon": "https://raw.githubusercontent.com/tuannq98hn/vbook-extensions/master/vietmanhwa/icon.png",
+      "description": "Đọc truyện tranh manhwa trên trang VietManhwa",
+      "type": "comic",
+      "locale": "vi_VN",
+      "tag": "nsfw"
     }
   ]
 }
