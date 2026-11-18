@@ -2,11 +2,11 @@
   "metadata": {
     "name": "TruyệnDịch AI",
     "author": "SV",
-    "version": 2,
-    "source": "https://truyendich.space",
+    "version": 3,
+    "source": "https://truyendich.us",
     "description": "Đọc truyện chữ trên trang TruyenDichAI",
     "locale": "vi_VN",
-    "regexp": "(https?://)?(www\\.)?truyendich\\.space/doc-truyen/[^/]+/?",
+    "regexp": "(https?://)?(www\\.)?truyendich\\.(us|space)/doc-truyen/[^/]+/?",
     "language": "javascript",
     "type": "novel",
     "nsfw": false,
@@ -24,7 +24,7 @@
   "config": {
     "DOMAIN": {
       "title": "Domain",
-      "default": "https://truyendich.space",
+      "default": "https://truyendich.us",
       "mode": "input",
       "format": "text"
     }

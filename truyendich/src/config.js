@@ -1,4 +1,4 @@
-let BASE_URL = "https://truyendich.space";
+let BASE_URL = "https://truyendich.us";
 try {
     if (DOMAIN) {
         BASE_URL = DOMAIN;
