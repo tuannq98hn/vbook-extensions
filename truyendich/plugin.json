@@ -2,7 +2,7 @@
   "metadata": {
     "name": "TruyệnDịch AI",
     "author": "SV",
-    "version": 3,
+    "version": 4,
     "source": "https://truyendich.us",
     "description": "Đọc truyện chữ trên trang TruyenDichAI",
     "locale": "vi_VN",
@@ -27,6 +27,8 @@
       "default": "https://truyendich.us",
       "mode": "input",
       "format": "text"
-    }
+    },
+    "thread_num": 1,
+    "delay": 1000
   }
 }

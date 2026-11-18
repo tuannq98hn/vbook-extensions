@@ -1,7 +1,8 @@
 load('config.js');
 function execute(url) {
     url = normalizeUrl(url);
-    let response = fetch(url);
+    let response = fetchPage(url);
+    if (isCooldown(response)) return Response.error("Trang đang giới hạn tải nhanh, thử lại sau");
     if (!response.ok) return Response.error("HTTP " + response.status);
     let doc = response.html();
 
